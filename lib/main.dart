@@ -24,6 +24,7 @@ class TrendingRecipesPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const Scaffold(
+      backgroundColor:AppColors.backroundColor ,
       body: TrendingRecipeItem(),
     );
   }
