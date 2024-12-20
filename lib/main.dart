@@ -25,7 +25,12 @@ class TrendingRecipesPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const Scaffold(
       backgroundColor:AppColors.backroundColor ,
-      body: TrendingRecipeItem(),
+      body: Center(
+        child: Padding(
+          padding: EdgeInsets.all(11.0),
+          child: TrendingRecipeItem(),
+        ),
+      ),
     );
   }
 }
